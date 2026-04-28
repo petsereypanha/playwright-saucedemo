@@ -1,6 +1,12 @@
 import { Page, Locator, expect } from "@playwright/test";
 
 export class ProductsPage {
+  check() {
+      throw new Error('Method not implemented.');
+  }
+  getByRole(arg0: string, arg1: { name: string; }) {
+      throw new Error('Method not implemented.');
+  }
   readonly page: Page;
   readonly inventoryItems: Locator;
   readonly cartBadge: Locator;
